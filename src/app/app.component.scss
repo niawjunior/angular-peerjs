@@ -1,0 +1,82 @@
+.peer-id {
+  padding: 1rem;
+  width: 50vw;
+}
+input {
+  border-radius: 50px;
+  border: 1px solid #ccc;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.connect-button {
+  padding: 1rem;
+  margin-top: 1rem;
+  background-color: rgb(28, 232, 96);
+  color: white;
+}
+.actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+
+  .call-button {
+    background-color: #28f;
+    color: white;
+  }
+  .hangup-button {
+    background-color: #f00;
+    color: white;
+    padding-top: 1rem;
+  }
+}
+button {
+  padding: 1rem;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  min-width: 100px;
+}
+
+#video-wrapper {
+  text-align: center;
+  background-color: #343434;
+  border-radius: 4px;
+}
+
+#remote-video {
+  max-width: 100%;
+  max-height: 90vh;
+  border-radius: 4px;
+}
+
+#local-video {
+  z-index: 1;
+  position: absolute;
+  right: 1.5rem;
+  bottom: 1.5rem;
+  width: 10vw;
+  height: 10vw;
+  max-width: 10rem;
+  max-height: 10rem;
+  border: 3px solid white;
+  border-radius: 4px;
+}
+
+.incoming-call {
+  display: flex;
+  background-color: rgb(134, 59, 254);
+  flex-direction: column;
+  color: white;
+  padding: 1rem;
+  height: fit-content;
+  width: 200px;
+  border-radius: 20px;
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
